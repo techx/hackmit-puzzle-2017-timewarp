@@ -190,7 +190,7 @@ footer {
     footer .left:after {
       padding-left: 20px;
       content: 'HACK TO THE FUTURE';
-      font-size: 14px;
+      font-size: 9px;
       letter-spacing: .05em; }
   footer .right {
     background-image: url(../assets/images/border-bottom-right@2x.png); }
@@ -209,8 +209,8 @@ footer {
 .copyright {
   color: rgba(208, 214, 224, 0.6);
   text-align: right;
-  font-size: 9px;
-  line-height: 1.1em;
+  font-size: 5px;
+  line-height: 1.3em;
   position: relative;
   margin-top: 24px;
   margin-right: 10px;
@@ -306,7 +306,7 @@ body {
   background-color: #252C37;
   font-family: 'ALIENLA', sans-serif;
   color: #D0D6E0;
-  font-size: 13px;
+  font-size: 9px;
   letter-spacing: .025em; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: #252C37;
   text-shadow: 1px -1px 0 #FF585D, -1px -1px 0 #FF585D, -1px 1px 0 #FF585D, 1px 1px 0 #FF585D;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: .05em; }
 
@@ -328,13 +328,13 @@ h4, h5, h6 {
   font-weight: 400; }
 
 h3 {
-  font-size: 16px; }
+  font-size: 12px; }
 
 h4 {
-  font-size: 14px; }
+  font-size: 10px; }
 
 h5 {
-  font-size: 12px; }
+  font-size: 8px; }
 
 a {
   color: #FF585D; }
