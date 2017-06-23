@@ -5,17 +5,23 @@
 
 // Basics & Typeography
 
+@font-face {
+      font-family: 'ALIENLA';
+        src: url('/assets/fonts/ALIENLA.woff') format('woff'), 
+             url('/assets/fonts/ALIENLA.ttf') format('truetype'); 
+}  
+
 body {
     background-color: $black;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'ALIENLA', sans-serif;
     color: $white;
     font-size: 13px;
     letter-spacing: .025em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ALIENLA', sans-serif;
 }
 
 h1 {

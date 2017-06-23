@@ -299,15 +299,18 @@ footer {
       margin: 20px auto 0 auto !important; }
     .controls ul #faq-section .content {
       max-height: none; } }
+@font-face {
+  font-family: 'ALIENLA';
+  src: url("/assets/fonts/ALIENLA.woff") format("woff"), url("/assets/fonts/ALIENLA.ttf") format("truetype"); }
 body {
   background-color: #252C37;
-  font-family: 'Karla', sans-serif;
+  font-family: 'ALIENLA', sans-serif;
   color: #D0D6E0;
   font-size: 13px;
   letter-spacing: .025em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'ALIENLA', sans-serif; }
 
 h1 {
   color: #252C37;
