@@ -24,3 +24,4 @@ def cipher(s, key):
         cipher += caesar_char(c, key) 
     return cipher 
 
+
