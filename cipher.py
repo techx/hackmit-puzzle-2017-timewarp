@@ -1,3 +1,7 @@
+'''
+    Cipher provider. Provides a common interface to cipher things
+'''
+
 import string
 
 def caesar_char(c, key):
@@ -11,17 +15,12 @@ def caesar_char(c, key):
         
     return c.upper() if isupper else c 
 
-def caesar(s, key):
+'''
+    Currently implements a Caesar Cipher
+'''
+def cipher(s, key):
     cipher = ""
     for c in s:
         cipher += caesar_char(c, key) 
     return cipher 
-    
-PLAINTEXT = "decrypted.html"
-CIPHERTEXT = "index.html"
-
-with open(PLAINTEXT) as fin:
-    with open(CIPHERTEXT) as fout:
-        for line in fin:
-            
 

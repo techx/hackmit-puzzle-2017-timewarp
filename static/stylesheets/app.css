@@ -301,7 +301,7 @@ footer {
       max-height: none; } }
 @font-face {
   font-family: 'ALIENLA';
-  src: url("/assets/fonts/ALIENLA.woff") format("woff"), url("/assets/fonts/ALIENLA.ttf") format("truetype"); }
+  src: url("/static/assets/fonts/ALIENLA.woff") format("woff"), url("/static/assets/fonts/ALIENLA.ttf") format("truetype"); }
 body {
   background-color: #252C37;
   font-family: 'ALIENLA', sans-serif;
