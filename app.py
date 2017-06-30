@@ -8,6 +8,7 @@ from cipher import cipher
 import hashlib
 from hashing import file_for_u 
 from config import SECRET
+from raven.contrib.flask import Sentry
 
 from flask import (
     Flask,
@@ -19,6 +20,7 @@ from flask import (
 )
 
 app = Flask(__name__)
+sentry = Sentry(app)
 
 
 '''

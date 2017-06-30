@@ -1,6 +1,8 @@
 beautifulsoup4==4.6.0
+blinker==1.4
 bs4==0.0.1
 click==6.7
+contextlib2==0.5.5
 Flask==0.12.2
 gevent==1.2.2
 greenlet==0.4.12
@@ -8,5 +10,6 @@ itsdangerous==0.24
 Jinja2==2.9.6
 lxml==3.8.0
 MarkupSafe==1.0
+raven==6.1.0
 uWSGI==2.0.15
 Werkzeug==0.12.2
