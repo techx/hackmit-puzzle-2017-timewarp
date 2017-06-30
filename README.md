@@ -1,21 +1,13 @@
-# HackMIT 2017 splash page
+# Warp puzzle
 
-## Development
+## What is it
+1. decode a shift cipher
+2. RE a .class
+3. adjust your sys clock or just copy the answer from the class
 
-Sass/SCSS is a CSS preprocessor that has all kinds of syntactic sugar - nesting styles, variables, importing files, mixins and more. [Install the command line tools](http://sass-lang.com/install) for your platform, then from this directory, execute:
+## Hash mapping
+it'd be real nice to have hash(username) -> date directly just as everything has before
+hack\_hash has a savage # of dates tho
+we'll use the first 8 bits (2^8 = 256 possible days)
+to gen a date hash in the same fashion as hack-hash
 
-```bash
-sass --watch sass:stylesheets
-```
-
-## Design
-
-[Desktop view + branding](https://xd.adobe.com/view/37a42ed1-e379-46cc-bc49-3d466431cfbd/)
-
-[Full desktop experience](https://xd.adobe.com/view/43524a38-5392-4f4b-9799-357acd574b58/)
-
-[Mobile view](https://xd.adobe.com/view/1291a362-5918-4e32-a741-0e39b2ead0e6/)
-
-## TODO
-
-- Set tracking. Heading: 50, subheading: 128

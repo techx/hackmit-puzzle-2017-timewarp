@@ -19,9 +19,6 @@ def caesar_char(c, key):
     Currently implements a Caesar Cipher
 '''
 def cipher(s, key):
-    cipher = ""
-    for c in s:
-        cipher += caesar_char(c, key) 
-    return cipher 
+    return ''.join(map(lambda c: caesar_char(c, key), s))
 
-
+    
