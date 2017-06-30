@@ -11,3 +11,6 @@ hack\_hash has a savage # of dates tho
 we'll use the first 8 bits (2^8 = 256 possible days)
 to gen a date hash in the same fashion as hack-hash
 
+### Notes about JAR Generation
+
+Since we're using a string obfuscator that generates an anonymous class, we need to package both the classes into the jar
