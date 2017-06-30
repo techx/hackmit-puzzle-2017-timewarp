@@ -27,4 +27,4 @@ def file_for_u(u):
     return file_for_i(i)
 
 def file_for_i(i):
-    return hashlib.sha256((SECRET + str(i)).encode('utf-8')).hexdigest() + '.class'
+    return hashlib.sha256((SECRET + str(i)).encode('utf-8')).hexdigest() + '.jar'
