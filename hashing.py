@@ -18,7 +18,7 @@ def u_to_date(u):
     return date_for_i(i)
 
 def date_for_i(i):
-    t = BASE_DT + TimeDelta(days=i*1000, hours=(i%60), minutes=(i*3%60))
+    t = BASE_DT + TimeDelta(days=i*1000, hours=(i%60), minutes=((i*3)%60))
     return t.strftime('%b %d %Y %I:%M %p')
 
 def file_for_u(u):
