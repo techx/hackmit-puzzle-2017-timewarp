@@ -50,11 +50,10 @@ def alien_view(username):
     # Calculate JAR url
     jar_name = file_for_u(username)
     jar_url = "/suchsecret/{jar}".format(jar=jar_name)
-    jar_url = cipher(jar_url, shift)
-
+    jar_url_enc = cipher(jar_url, shift)
 
     # Pass it through jinja
-    html_doc_rendered = render_template_string(html_doc, jar_url=jar_url)
+    html_doc_rendered = render_template_string(html_doc, jar_url_enc=jar_url_enc, jar_url=jar_url)
 
     # Init parser
     soup = BeautifulSoup(html_doc_rendered, 'lxml')
